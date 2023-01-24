@@ -1,0 +1,16 @@
+# git rm client/__pycache__ -r --cached
+
+.env
+env
+*.pyc
+__pycache__/
+**__pycache__/
+
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+*migrations/*
+!migrations/__init__.py
+
+.idea/
+*.idea/
